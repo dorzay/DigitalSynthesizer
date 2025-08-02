@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nMBspo" name="DigitalSynthesizer" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              pluginFormats="buildVST3" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginManufacturer="DigitalSynthesizer">
+  <MAINGROUP id="GUO9Qj" name="DigitalSynthesizer">
+    <GROUP id="{F0A18EBF-3F30-E20D-389E-9B3D2314645F}" name="Source">
+      <GROUP id="{DB65B965-ACFF-2B01-8F27-A21153378447}" name="Assets">
+        <GROUP id="{78C6575D-CE9D-A557-C9F6-ED159A379092}" name="Fonts">
+          <FILE id="FPBHXz" name="Nexa-ExtraLight.ttf" compile="0" resource="1"
+                file="Source/Assets/Fonts/Nexa-ExtraLight.ttf"/>
+        </GROUP>
+        <GROUP id="{4483418C-E5F6-F918-5D56-9F580E12AE4A}" name="Pictures">
+          <GROUP id="{9C081DA6-EB82-F089-AEBD-17CB09BDCF38}" name="Waveforms">
+            <FILE id="FpuZQp" name="Sawtooth.png" compile="0" resource="1" file="Source/Assets/Pictures/Waveforms/Sawtooth.png"/>
+            <FILE id="fJ6cwj" name="Sine.png" compile="0" resource="1" file="Source/Assets/Pictures/Waveforms/Sine.png"/>
+            <FILE id="PccLDC" name="Square.png" compile="0" resource="1" file="Source/Assets/Pictures/Waveforms/Square.png"/>
+            <FILE id="Krgw1K" name="Triangle.png" compile="0" resource="1" file="Source/Assets/Pictures/Waveforms/Triangle.png"/>
+            <FILE id="Wveb9C" name="WhiteNoise.png" compile="0" resource="1" file="Source/Assets/Pictures/Waveforms/WhiteNoise.png"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{1F7BD81E-00AF-8AFC-9FF8-8433E418E711}" name="Modules">
+        <GROUP id="{87251ECB-8FA2-DDD1-16AD-44152981707F}" name="ComboBox">
+          <FILE id="i4YmjA" name="ComboBox.cpp" compile="1" resource="0" file="Source/Modules/ComboBox/ComboBox.cpp"/>
+          <FILE id="KxWzQO" name="ComboBox.h" compile="0" resource="0" file="Source/Modules/ComboBox/ComboBox.h"/>
+        </GROUP>
+        <GROUP id="{922893A3-15E6-FF0D-5D67-5D66ABB8B921}" name="Envelope">
+          <FILE id="o54tKY" name="Envelope.cpp" compile="1" resource="0" file="Source/Modules/Envelope/Envelope.cpp"/>
+          <FILE id="cYgOEA" name="Envelope.h" compile="0" resource="0" file="Source/Modules/Envelope/Envelope.h"/>
+          <FILE id="yEcNJw" name="EnvelopeComponent.cpp" compile="1" resource="0"
+                file="Source/Modules/Envelope/EnvelopeComponent.cpp"/>
+          <FILE id="L0lRQK" name="EnvelopeComponent.h" compile="0" resource="0"
+                file="Source/Modules/Envelope/EnvelopeComponent.h"/>
+          <FILE id="hKR8bD" name="EnvelopeGraph.cpp" compile="1" resource="0"
+                file="Source/Modules/Envelope/EnvelopeGraph.cpp"/>
+          <FILE id="d2N7Sg" name="EnvelopeGraph.h" compile="0" resource="0" file="Source/Modules/Envelope/EnvelopeGraph.h"/>
+        </GROUP>
+        <GROUP id="{6BC44298-173D-1EA4-E775-F5BF39E269EA}" name="Filter">
+          <FILE id="ZxpX6e" name="Filter.cpp" compile="1" resource="0" file="Source/Modules/Filter/Filter.cpp"/>
+          <FILE id="GYgBaV" name="Filter.h" compile="0" resource="0" file="Source/Modules/Filter/Filter.h"/>
+          <FILE id="FUnmh4" name="FilterComponent.cpp" compile="1" resource="0"
+                file="Source/Modules/Filter/FilterComponent.cpp"/>
+          <FILE id="IqgJCl" name="FilterComponent.h" compile="0" resource="0"
+                file="Source/Modules/Filter/FilterComponent.h"/>
+          <FILE id="oybpR7" name="FilterGraph.cpp" compile="1" resource="0" file="Source/Modules/Filter/FilterGraph.cpp"/>
+          <FILE id="k9XbmE" name="FilterGraph.h" compile="0" resource="0" file="Source/Modules/Filter/FilterGraph.h"/>
+          <FILE id="HzoVqC" name="TalkBoxFilter.cpp" compile="1" resource="0"
+                file="Source/Modules/Filter/TalkBoxFilter.cpp"/>
+          <FILE id="Xym2MW" name="TalkBoxFilter.h" compile="0" resource="0" file="Source/Modules/Filter/TalkBoxFilter.h"/>
+        </GROUP>
+        <GROUP id="{54AC4F1F-5890-1EEF-B61F-902D3ADD0965}" name="Knob">
+          <FILE id="iQWysE" name="Knob.cpp" compile="1" resource="0" file="Source/Modules/Knob/Knob.cpp"/>
+          <FILE id="juCYwn" name="Knob.h" compile="0" resource="0" file="Source/Modules/Knob/Knob.h"/>
+          <FILE id="uy9uW9" name="KnobModulation.cpp" compile="1" resource="0"
+                file="Source/Modules/Knob/KnobModulation.cpp"/>
+          <FILE id="izdCBA" name="KnobModulation.h" compile="0" resource="0"
+                file="Source/Modules/Knob/KnobModulation.h"/>
+          <FILE id="G4Zs86" name="ModulationTarget.cpp" compile="1" resource="0"
+                file="Source/Modules/Knob/ModulationTarget.cpp"/>
+          <FILE id="xslQR0" name="ModulationTarget.h" compile="0" resource="0"
+                file="Source/Modules/Knob/ModulationTarget.h"/>
+        </GROUP>
+        <GROUP id="{ADCE2CF1-9DB2-8F13-309D-2EBFAE37EAFA}" name="LFO">
+          <FILE id="QtgbH2" name="LFO.cpp" compile="1" resource="0" file="Source/Modules/LFO/LFO.cpp"/>
+          <FILE id="OdRAxY" name="LFO.h" compile="0" resource="0" file="Source/Modules/LFO/LFO.h"/>
+          <FILE id="Fmv4mw" name="LFOComponent.cpp" compile="1" resource="0"
+                file="Source/Modules/LFO/LFOComponent.cpp"/>
+          <FILE id="ZuHCtm" name="LFOComponent.h" compile="0" resource="0" file="Source/Modules/LFO/LFOComponent.h"/>
+          <FILE id="esMbCd" name="LFOGraph.cpp" compile="1" resource="0" file="Source/Modules/LFO/LFOGraph.cpp"/>
+          <FILE id="Sln4po" name="LFOGraph.h" compile="0" resource="0" file="Source/Modules/LFO/LFOGraph.h"/>
+        </GROUP>
+        <GROUP id="{77EBF276-1FF8-D278-2F39-009577B9590F}" name="Linkable">
+          <FILE id="fKyYnS" name="Linkable.h" compile="0" resource="0" file="Source/Modules/Linkable/Linkable.h"/>
+          <FILE id="uGzRxe" name="LinkableUtils.h" compile="0" resource="0" file="Source/Modules/Linkable/LinkableUtils.h"/>
+        </GROUP>
+        <GROUP id="{05089C6F-2600-3CCC-D6E8-8C066BD74ABD}" name="MenuBar">
+          <FILE id="JPdk19" name="MenuBar.cpp" compile="1" resource="0" file="Source/Modules/MenuBar/MenuBar.cpp"/>
+          <FILE id="JXjKee" name="MenuBar.h" compile="0" resource="0" file="Source/Modules/MenuBar/MenuBar.h"/>
+        </GROUP>
+        <GROUP id="{BFA0B085-A966-1713-9D36-CD2049E3EA3A}" name="Oscillator">
+          <FILE id="CLFDEK" name="Oscillator.cpp" compile="1" resource="0" file="Source/Modules/Oscillator/Oscillator.cpp"/>
+          <FILE id="IXaLe9" name="Oscillator.h" compile="0" resource="0" file="Source/Modules/Oscillator/Oscillator.h"/>
+          <FILE id="HIhDKA" name="OscillatorComponent.cpp" compile="1" resource="0"
+                file="Source/Modules/Oscillator/OscillatorComponent.cpp"/>
+          <FILE id="w4bxes" name="OscillatorComponent.h" compile="0" resource="0"
+                file="Source/Modules/Oscillator/OscillatorComponent.h"/>
+        </GROUP>
+        <GROUP id="{BCEE24D9-23F7-2170-5DEC-808BE0D661EA}" name="PresetManager">
+          <FILE id="qBeFft" name="PresetManager.cpp" compile="1" resource="0"
+                file="Source/Modules/PresetManager/PresetManager.cpp"/>
+          <FILE id="Acxs3P" name="PresetManager.h" compile="0" resource="0" file="Source/Modules/PresetManager/PresetManager.h"/>
+        </GROUP>
+        <GROUP id="{B6F57C50-BF0E-D621-D347-6842D850690C}" name="Presets"/>
+        <GROUP id="{F3724E08-9257-B886-44F6-50281262C5E1}" name="VolumeMeter">
+          <FILE id="lxSuKu" name="VolumeMeter.cpp" compile="1" resource="0" file="Source/Modules/VolumeMeter/VolumeMeter.cpp"/>
+          <FILE id="pkmJHa" name="VolumeMeter.h" compile="0" resource="0" file="Source/Modules/VolumeMeter/VolumeMeter.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="DgsI8S" name="Common.cpp" compile="1" resource="0" file="Source/Common.cpp"/>
+      <FILE id="mNyTaQ" name="Common.h" compile="0" resource="0" file="Source/Common.h"/>
+      <FILE id="Z5EFhT" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="OhxBP4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="Tx1JnO" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="rXhJLs" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DigitalSynthesizer" winWarningLevel="2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DigitalSynthesizer" winWarningLevel="2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
